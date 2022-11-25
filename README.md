@@ -1,60 +1,147 @@
+<a name="readme-top"></a>
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-# wsc2022
+Modify this file to match your project and remove sections that don't apply.
 
->World Snooker Championship capstone project of module 1
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
+After you're finished please remove all the comments and instructions!
+-->
 
-## Built With
+<div align="center">
 
-- HTML & CSS
-- JavaScript
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Live Demo
--Live demo link: (https://app-developer8866.github.io/wsc2022.github.io/)
+  <h3><b>Microverse Capstone Project</b></h3>
 
-## Video Presentation
--Video [presentrtion](https://www.loom.com/share/ea2dbf75e5964a2c8bdccec9b1c98b58)
+</div>
 
+<!-- TABLE OF CONTENTS -->
 
-## Getting Started
+# 📗 Table of Contents
 
-**If you want to this project kindly check the [ GitHub repository](https://github.com/App-Developer8866/Capstone_1)**
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📺 Presentation](#presentation)
+- [📝 License](#license)
 
+# 💻 wsc2022 <a name="about-project"></a>
 
-### Prerequisites
--Web Browser
- -Code Editor:[visual Studio code](https://code.visualstudio.com/)
+This is my capstone project for module 1 of Microverse program. In this project, I built a website for a world snooker championship, where people can see about the event, top players and other programs.
 
-### Setup
-git clone https://github.com/App-Developer8866/Capstone_1
-cd Capstone_1
-~~~
-Open a index.html file with your code editor of your choice and/or a browser of your choice.
-~~~
-Open the project using a live server extension that can be found into your code editor.
+## 🛠 Built With <a name="built-with"></a>
 
+### Tech Stack <a name="tech-stack"></a>
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>[Bootstrap 5](https://getbootstrap.com/)</li>
+    <li>[Font Awesome](https://fontawesome.com/)</li>
+    <li>[Lato Fonts](https://www.latofonts.com/)</li>
+  </ul>
+</details>
 
-## Authors
+### Key Features <a name="key-features"></a>
 
-👤 **Author**
+- **Mobile-and-Desktop Website**
+- **Responsive Layout**
+- **Dynamic Contents**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can see my project [live demo](https://app-developer8866.github.io/wsc2022.github.io/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, clone this repository to your desired folder using the following command:
+
+```sh
+  git clone git@github.com:App-Developer8866/Capstone1.git
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👨‍🚀 IndieCoderMM <a name="authors"></a>
 
 - GitHub: [@App-Developer8866](https://github.com/App-Developer8866/)
+- LinkedIn: [Muhammad Muttraf Rasool](https://www.linkedin.com/in/muhammad-muttraf-rasool-421819202)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add dynamic button for mobile**
+- [ ] **Add form for ordering tickets**
+- [ ] **Create ranking table of top players**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+If you like this project, you can support me by giving a ⭐.
 
-This project is [MIT](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+The design inspiration of this project is from [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015/modules/192118207) created by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+I would like to thank all of the code reviewers for making my project better.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📺 Presentation <a name="presentation"></a>
+
+You can watch my [presentation about this project here](https://www.loom.com/share/ea2dbf75e5964a2c8bdccec9b1c98b58).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
