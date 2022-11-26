@@ -5,22 +5,6 @@ const menuBtn = document.querySelector('#menu-btn');
 const navContainer = document.querySelector('.nav-container');
 const navItems = document.querySelectorAll('.nav-menu a');
 const Speaker = document.querySelectorAll('.speaker');
-const moreBtn = document.querySelector('#more i');
-const player4 = document.querySelector('#player4');
-const player5 = document.querySelector('#player5');
-const player6 = document.querySelector('#player6');
-const player7 = document.querySelector('#player7');
-const player8 = document.querySelector('#player8');
-const p4Img = document.querySelector('#player4 > img');
-const p4Sec = document.querySelector('#player4 > section');
-const p5Img = document.querySelector('#player5 > img');
-const p5Sec = document.querySelector('#player5 > section');
-const p6Img = document.querySelector('#player6 > img');
-const p6Sec = document.querySelector('#player6 > section');
-const p7Img = document.querySelector('#player7 > img');
-const p7Sec = document.querySelector('#player7 > section');
-const p8Img = document.querySelector('#player8 > img');
-const p8Sec = document.querySelector('#player8 > section');
 
 const DISPLAY_MENU = 'mobile-menu';
 const FIXED_POS = 'fixed-position';
@@ -144,21 +128,3 @@ for (let i = 0; i < players.length; i++) {
           </section>
   `;
 }
-
-moreBtn.addEventListener('click', () => {
-  player4.style.display = 'block';
-  player5.style.display = 'block';
-  player6.style.display = 'block';
-  player7.style.display = 'block';
-  player8.style.display = 'block';
-  p4Img.style.display = 'block';
-  p4Sec.style.display = 'block';
-  p5Img.style.display = 'block';
-  p5Sec.style.display = 'block';
-  p6Img.style.display = 'block';
-  p6Sec.style.display = 'block';
-  p7Img.style.display = 'block';
-  p7Sec.style.display = 'block';
-  p8Img.style.display = 'block';
-  p8Sec.style.display = 'block';
-});

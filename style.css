@@ -392,7 +392,7 @@ hr {
 
 /* || Footer container  */
 #footer,
-#footer h2,
+#footer h3,
 #footer img,
 #footer p {
   display: none;
@@ -525,7 +525,7 @@ hr {
 
   /* Footer */
   #footer,
-  #footer h2,
+  #footer h3,
   #footer img,
   #footer p {
     display: flex;
