@@ -21,6 +21,23 @@
 
 <body>
   <header class="page-header">
+    <ul class="tool-bar">
+      <li>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="#">English</a>
+      </li>
+      <li>
+        <a href="#">Mypage</a>
+      </li>
+      <li>
+        <a href="#">Logout</a>
+      </li>
+    </ul>
     <section class="nav-bar">
       <div class="page-logo">
         <a href="#" class="navbar-brand">
@@ -45,8 +62,8 @@
     </section>
   </header>
   <main>
-    <article class="headline-container" id="headline-section">
-      <section class="d-flex flex-column headline">
+    <section class="headline-container" id="headline-section">
+      <div class="d-flex flex-column headline">
         <h1>
           <span class="greeting"> "Hello! Snooker World" </span>
           World Snooker Championship 2022
@@ -61,13 +78,13 @@
         <p class="event-location">
           @ Crucible Theatre in Sheffield, England
         </p>
-      </section>
-    </article>
-    <article class="program-container d-flex flex-column align-items-center p-3" id="program-section">
+      </div>
+    </section>
+    <section class="program-container d-flex flex-column align-items-center p-3" id="program-section">
       <h2 class="section-heading">Main Program</h2>
       <hr />
       <section class="row gap-3 p-3 justify-content-center">
-        <section class="program-card col-md-2">
+        <article class="program-card col-md-2">
           <div class="icon-container">
             <i class="fa-solid fa-chalkboard-user"></i>
           </div>
@@ -76,8 +93,8 @@
             Listen to the snooker lessons taught by the most-experienced
             international grandmasters.
           </p>
-        </section>
-        <section class="program-card col-md-2">
+        </article>
+        <article class="program-card col-md-2">
           <div class="icon-container">
             <i class="fas fa-chess-board"></i>
           </div>
@@ -86,8 +103,8 @@
             Watch the exciting snooker matches by the top players and learn from
             them.
           </p>
-        </section>
-        <section class="program-card col-md-2">
+        </article>
+        <article class="program-card col-md-2">
           <div class="icon-container">
             <i class="fas fa-chess-queen"></i>
           </div>
@@ -96,8 +113,8 @@
             Play snooker with other players over a chessboard, rather than
             playing online.
           </p>
-        </section>
-        <section class="program-card col-md-2">
+        </article>
+        <article class="program-card col-md-2">
           <div class="icon-container">
             <i class="fas fa-book"></i>
           </div>
@@ -106,8 +123,8 @@
             Study the important theory about the openings, middle game and
             endgame.
           </p>
-        </section>
-        <section class="program-card col-md-2">
+        </article>
+        <article class="program-card col-md-2">
           <div class="icon-container">
             <i class="fas fa-users"></i>
           </div>
@@ -116,11 +133,11 @@
             Become part of the amazing snooker community to discuss, study and
             play.
           </p>
-        </section>
+        </article>
       </section>
       <button type="button" id="join-btn">Join Event</button>
-    </article>
-    <article class="feature-container d-flex flex-column align-items-center p-3 bg-white" id="player-section">
+    </section>
+    <section class="feature-container d-flex flex-column align-items-center p-3 bg-white" id="player-section">
       <h2 class="section-heading">Featured Players</h2>
       <hr />
       <section class="row justify-content-center">
@@ -149,24 +166,28 @@
           
         </section>
       </section>
-    </article>
-    <article class="partner-container1 d-flex flex-column align-items-center p-2" id="partner-section">
+    </section>
+    <section class="partner-container1 d-flex flex-column align-items-center p-2" id="partner-section">
       <h2 class="section-heading">Partners</h2>
       <hr />
-      <section class="partner-grid d-flex flex-wrap align-items-center p-3 gap-4 justify-content-center">
-        <img src="img/partner1.png" alt="algorand logo" />
-        <img src="img/partner2.png" alt="algorand logo" />
-        <img src="img/partner3.png" alt="algorand logo" />
-        <img src="img/partner4.png" alt="algorand logo" />
-        <img src="img/partner5.png" alt="algorand logo" />
-      </section>
-    </article>
+      <ul class="partner-grid d-flex flex-wrap align-items-center p-3 gap-4 justify-content-center">
+        <li><img src="img/partner1.png" alt="algorand logo" /></li>
+        <li><img src="img/partner2.png" alt="algorand logo" /></li>
+        <li><img src="img/partner3.png" alt="algorand logo" /></li>
+        <li><img src="img/partner4.png" alt="algorand logo" /></li>
+        <li><img src="img/partner5.png" alt="algorand logo" /></li>
+      </ul>
+    </section>
   </main>
   <section class="py-3 mx-2 border border-3 text-center" id="more">
     <strong>MORE</strong> <i class="fa-solid fa-chevron-down mx-2 arrow-down"></i>
   </section>
   <footer
     class="d-flex justify-content-center flex-wrap align-items-center p-2 mt-3 mb-3 gap-3 bg-white footer-container" id="footer">
+    <img width="50px" height="60px" src="img/main-icon.png" alt="icon">
+    <h2>
+      World Snooker Championship
+    </h2>
     <p class="text-center">
       2022 &copy; World Snooker Championship. All Rights Reserved.
     </p> 
